@@ -68,10 +68,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=1024" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <title>impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz</title>
+    <title>intro at KUL | by Israel Gutiérrez @gootyfer</title>
     
-    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
-    <meta name="author" content="Bartek Szopka" />
+    <meta name="description" content="Presentation of the work I want to carry out at KUL during summer 2012." />
+    <meta name="author" content="Israel Gutiérrez" />
 
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
 
@@ -145,7 +145,7 @@
     right around the corner of this tag ;)
     
 -->
-<div id="impress">
+<div id="impress" data-transition-duration="1100">
 
     <!--
         
@@ -163,11 +163,11 @@
         
         It will not be rotated or scaled.
         
-    -->
+
     <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
         <q>Aren't you just <b>bored</b> with all those slides-based presentations?</q>
     </div>
-
+    -->
     <!--
         
         The `id` attribute of the step element is used to identify it in the URL, but it's optional.
@@ -182,7 +182,7 @@
         Please note, that while `#/step-2` (with slash) would also work in a link it's not recommended.
         Using classic `id`-based links like `#step-2` makes these links usable also in fallback mode.
         
-    -->
+    
     <div class="step slide" data-x="0" data-y="-1500">
         <q>Don't you think that presentations given <strong>in modern browsers</strong> shouldn't <strong>copy the limits</strong> of 'classic' slide decks?</q>
     </div>
@@ -190,7 +190,7 @@
     <div class="step slide" data-x="1000" data-y="-1500">
         <q>Would you like to <strong>impress your audience</strong> with <strong>stunning visualization</strong> of your talk?</q>
     </div>
-
+    -->
     <!--
         
         This is an example of step element being scaled.
@@ -201,10 +201,17 @@
         down (4 times) to make it back to it's correct size.
         
     -->
-    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
-        <span class="try">then you should try</span>
-        <h1>impress.js<sup>*</sup></h1>
-        <span class="footnote"><sup>*</sup> no rhyme intended</span>
+    <div id="title" class="step" data-x="0" data-y="0" data-z="1" data-scale="5">
+        <img id="igr" src="img/igr.jpg" />
+        <img id="alfred" src="img/alfred.jpg" />
+        <img id="manga" src="img/faceyourmanga.jpg" />
+        
+        <h1>Israel Gutiérrez<sup>*</sup></h1>
+        <p class="try">Teacher (it.uc3m.es/igrojas)</p>
+        <p class="try">Researcher (mendeley.com/profiles/israel-gutierrez)</p>
+        <p class="try">PhD student (@gootyfer)</p>
+        <span class="footnote"><sup>*</sup> gootyfer</span>
+        
     </div>
 
     <!--
@@ -215,14 +222,14 @@
         element should be rotated by 90 degrees clockwise.
         
     -->
-    <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
-        <p>It's a <strong>presentation tool</strong> <br/>
-        inspired by the idea behind <a href="http://prezi.com">prezi.com</a> <br/>
-        and based on the <strong>power of CSS3 transforms and transitions</strong> in modern browsers.</p>
+    <div id="prezi" class="step" data-x="850" data-y="5000" data-rotate="90" data-scale="5">
+        <h1>Where do I come from?</h1>
+        <p>Let's talk <strong>briefly</strong> <br/>
+        about <a href="http://prezi.com/wcfzfefwvgx-/gradient-presentation-en/?auth_key=e9b100e277ecbd611733f9ef8cd04dca720e136d" target="_blank">my research group</a>
     </div>
 
     <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
-        <p>visualize your <b>big</b> <span class="thoughts">thoughts</span></p>
+        <p>Are you aware of the hype about the <b>flip</b> <span class="thoughts">classroom?</span></p>
     </div>
 
     <!--
@@ -235,7 +242,18 @@
         
     -->
     <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
-        <p>and <b>tiny</b> ideas</p>
+        <p>Remember the <b>flip the classroom</b> as the theme of recent educational revolutions?</p>
+        <img id="khan" src="img/khan-academy.png" />
+    </div>
+
+    <div id="bloom" class="step" data-x="3800" data-y="2325" data-z="-3000" data-scale="1">
+        <p>Do you remember the <b>Bloom's taxonomy</b>?</p>
+        <img id="bloom" src="img/bloom.jpeg" />
+    </div>
+    <div id="bloom2" class="step" data-x="3825" data-y="2325" data-z="-3000" data-rotate="180" data-scale="1">
+        <p><b>Let's flip this too!</b></p>
+        <img id="bloom2" src="img/bloom2.png" /><br>
+        <span class="footnote">From a <a href="http://plpnetwork.com/2012/05/15/flipping-blooms-taxonomy/" target="_blank">very nice post</a> by Shelley Wright</span>
     </div>
 
     <!--
@@ -258,21 +276,70 @@
         Only one current step has the `present` class.
         
     -->
-    <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
-        <p>by <b class="positioning">positioning</b>, <b class="rotating">rotating</b> and <b class="scaling">scaling</b> them on an infinite canvas</p>
+    <div id="ing" class="step" data-x="4500" data-y="-650" data-rotate="270" data-scale="3">
+        <p>The <b>flip</b> concept is not new at all.</p>
+        <p>But people prefers <b>flip</b> a taxonomy better than inverting it, 
+            or even not having a taxonomy at all!</p>
+        <span class="footnote">Inspired by another <a href="http://www.happysteve.com/blog/the-curious-case-of-the-flipped-blooms-meme.html" target="_blank">nice post</a> by Steve Collis</span>
     </div>
 
-    <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
-        <p>the only <b>limit</b> is your <b class="imagination">imagination</b></p>
+    <div id="imagination" class="step" data-x="7700" data-y="-300" data-scale="5">
+        <p>We support the <b>eduflip</b> with</p>
+        <a href="https://vimeo.com/gootyfer/classon" target="_blank"><img src="img/classON_2.png"></a>
+        <p class="footnote">in CLass Analytics for aSSessment and OrchestratioN</p>
+        <p class="center">http://www.class-on.org</p>
+    </div>
+
+    <div class="step" data-x="6300" data-y="-1100" data-scale="1">
+        <h2>What is it?</h2>
+        <p><b>Awareness</b> support tool for teachers and students</p>
+        <p>Lab sessions in a computer room (<b>f2f</b>)</p>
+        <p>Regulate interactions: <b>feedback</b></p>
+        <p>Facilitates <b>orchestration</b></p> 
+    </div>
+
+    <div class="step" data-x="6300" data-y="-500" data-scale="1">
+        <h2>Conception</h2>
+        <p>Inspired in Dillebourg's lanterns for distributed awareness</p>
+        <p>Desing principles of the tool</p>
+        <p>UI</p>
+        <p>Short experiment in class</p>
+        <p>Preliminary results in ECTEL'11 (short paper)</p> 
+    </div>
+
+    <div class="step" data-x="6300" data-y="100" data-scale="1">
+        <h2>Observations</h2>
+        <p>Lab sessions were observed to justify the problem</p>
+        <p>Improved UI</p>
+        <p>Published at ICALT'12 (full paper)</p> 
+    </div>
+
+    <div class="step" data-x="7300" data-y="-1100" data-scale="1">
+        <h2>Case study</h2>
+        <p>Course on Multimedia Applications</p>
+        <p>January to May 2012</p>
+        <p>Collection of events, surveys and interviews</p>
+        <p>Partial results sent to ECTEL'12</p> 
+    </div>
+
+    <div class="step" data-x="7300" data-y="-500" data-scale="1">
+        <h2>Architecture</h2>
+        <img src="img/architecture.png">
+    </div>
+
+    <div class="step" data-x="7300" data-y="100" data-scale="1">
+        <h2>ROLE widget</h2>
+        <p>Winner of the 3rd ROLE widget competition</p>
+        <p>classON-Questions: questions shared and rated during the class</p>
     </div>
 
     <div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
         <p>want to know more?</p>
-        <q><a href="http://github.com/bartaz/impress.js">use the source</a>, Luke!</q>
+        <q><a href="http://github.com/gootyfer/classon">use the source</a>, Luke!</q>
     </div>
 
-    <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
-        <p>one more thing...</p>
+    <div id="one-more-thing" class="step" data-x="6000" data-y="3800" data-scale="2">
+        <p>Finally, 3 aspects to collaborate</p>
     </div>
 
     <!--
@@ -287,11 +354,32 @@
         as `data-rotate` (these two are basically aliases).
         
     -->
-    <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
-        <p><span class="have">have</span> <span class="you">you</span> <span class="noticed">noticed</span> <span class="its">it's</span> <span class="in">in</span> <b>3D<sup>*</sup></b>?</p>
-        <span class="footnote">* beat that, prezi ;)</span>
+    <div id="its-in-3d" class="step" data-x="6200" data-y="4800" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+        <p><b>Data visualization</b></p>
+        <p>engage students in the dynamics of the course</p>
+        <p>allow teachers to evaluate the learning design</p>
+        <p>simple, ad-hoc, straightforward (no dashboards!)</p>
+        <p>use <a href="http://d3js.org/">d3</a> (or a similar tool)</p>
     </div>
 
+    <div class="step" data-x="6300" data-y="5800" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+        <p><b>Gamification</b></p>
+        <p>gamify to engage in learning</p>
+        <p>prizes according to personal progress</p>
+        <p>play with <a href="http://openbadges.org/">Mozilla Open Badges</a></p>
+    </div>
+
+    <div class="step" data-x="6400" data-y="6800" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+        <p><b>Use cases</b></p>
+        <p>Set up the environment for a use case of classON at KUL.</p>
+        <p>Any courses in which it would fit?</p>
+    </div>
+
+    <div class="step" data-x="6400" data-y="8800" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="6">
+        <p><b>Thanks you very much 
+            <br>for your attention!</b></p>
+        <p>I'll be very glad to answer some questions</p>
+    </div>
     <!--
         
         So to make a summary of all the possible attributes used to position presentation steps, we have:
@@ -307,8 +395,6 @@
         CSS transfrom docs: https://developer.mozilla.org/en/CSS/transform
         
     -->
-    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
-    </div>
 
 </div>
 

@@ -1,0 +1,355 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"getQ",
+				"getQuestions"
+			],
+			[
+				"my_q",
+				"my_questions"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"font",
+				"font	font-size: size"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"cle",
+				"clearInterval();"
+			],
+			[
+				"set",
+				"setInterval();"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"h",
+				"h2	Tag"
+			],
+			[
+				"p",
+				"p	Tag"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"a",
+				"a	Tag"
+			],
+			[
+				"u",
+				"ul	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 19268,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 107.0,
+		"selected_items":
+		[
+			[
+				"gi",
+				"Git: Push"
+			],
+			[
+				"git",
+				"Git: Push"
+			],
+			[
+				"git commit",
+				"Git: Quick Commit"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"fol",
+				"Project: Add Folder"
+			],
+			[
+				"",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"h",
+				"Snippet: html"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"no",
+				"Nodejs::Run::Current File"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"package co",
+				"Package Control: List Packages"
+			],
+			[
+				"pac",
+				"Package Control: Discover Packages"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/gootyfer/Downloads/problemas/sol/gst-mp3player.c",
+		"/Users/gootyfer/Documents/github/classON/student/p3/p2_aux.js",
+		"/Users/gootyfer/Documents/github/classON-Questions/classonQ.xml",
+		"/Users/gootyfer/Documents/github/classON/teacher/index.html",
+		"/Users/gootyfer/Documents/github/classON/teacher/index2.html",
+		"/Users/gootyfer/Documents/github/classON/student/p11/sol/tags.c",
+		"/Users/gootyfer/Documents/github/classON/student/p8/index.html",
+		"/Users/gootyfer/Documents/github/classON/student/p9/index.html",
+		"/Users/gootyfer/Documents/github/classON/readme.md",
+		"/Users/gootyfer/Documents/github/classON/package.json",
+		"/Users/gootyfer/Documents/github/classON/student/p4/index.html",
+		"/Users/gootyfer/Documents/github/classon-questions/index.html",
+		"/Users/gootyfer/Documents/github/classON/student/p7/index.html",
+		"/Users/gootyfer/Documents/github/gootyfer.github.com/index.html",
+		"/Users/gootyfer/Documents/github/classON/users/AMM_66.csv",
+		"/Users/gootyfer/Documents/github/crafty-slides-videogame/js/game.js",
+		"/Users/gootyfer/Documents/github/crafty-slides-videogame/slides/index.html",
+		"/Users/gootyfer/Documents/github/crafty-slides-videogame/js/game_gul.js",
+		"/Users/gootyfer/Documents/github/crafty-slides-videogame/slides/css/styles.css"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"load",
+			"uname",
+			"back",
+			"classON",
+			"publish",
+			"send",
+			"quid",
+			"show_",
+			"id",
+			"space",
+			"my:ns",
+			"hint",
+			"question_list",
+			"fakeIP",
+			"goBack",
+			"queue re",
+			"fake",
+			"handshake",
+			"hand",
+			"fakeIP",
+			"checkUsers",
+			"sendQuestions",
+			"TOD",
+			"font",
+			"border",
+			"none",
+			"hidden",
+			"questions",
+			"conc",
+			"sendQueuePositions",
+			"sendEventToSession",
+			"questions",
+			"setExercise",
+			"getQuestions",
+			"descr",
+			"changeColor",
+			"interval",
+			"posic",
+			"soluc",
+			"seguro",
+			"gst-la",
+			"iex",
+			"acute",
+			"secc",
+			"line-",
+			"desc",
+			"heig",
+			"socket",
+			"icon.class",
+			"comp",
+			"button green",
+			"img",
+			"pre",
+			"figure",
+			"pre"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 19268,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 121.0,
+	"status_bar_visible": true
+}
