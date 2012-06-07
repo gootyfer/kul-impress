@@ -338,15 +338,15 @@ h2{
     The 'imagination' step is again some boring font-sizing.
 */
 
-#imagination {
+#classon {
     width: 800px;
 }
 
-#imagination .center {
+.center {
     text-align: center;
 }
 
-#imagination img{
+#classon img{
     margin: 0px 100px;
 }
 
